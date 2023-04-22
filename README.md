@@ -103,4 +103,4 @@ References:
 7. Hongfei Zhao, Ding Liu, Yifan Hou, Compiler and Linker of Sleptsov Net Program,International Conference ”Problems of Infocommunications. Science and Technology” (PICST2022), 10-12 October, 2022, Kyiv, Ukraine.
 
 ----------------------------------------------------------------------- 
-@ 2023 Tatiana R. Shmeleva: ta.arta@gmail.com
+@ 2023 Tatiana R. Shmeleva: tatianar.shmeleva@gmail.com

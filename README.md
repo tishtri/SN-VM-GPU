@@ -22,7 +22,7 @@ Compatibility:
 
 `Tina`, `nd`, and `NDR` file format according to https://projects.laas.fr/tina/index.php
 
-`NDRtoSN` and ransition substitution labels according to https://github.com/dazeorgacm/NDRtoSN
+`NDRtoSN` and Transition substitution labels according to https://github.com/dazeorgacm/NDRtoSN
 
 `SN-VM` and `LSN` file format according to https://github.com/zhangq9919/Sleptsov-net-processor
 

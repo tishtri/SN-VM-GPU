@@ -311,5 +311,5 @@ print_vect(mu,m);
   free(b); 
 }
 
-// @ 2023 Tatiana R. Shmeleva: ta.arta@gmail.com
+// @ 2023 Tatiana R. Shmeleva: tatianar.shmeleva@gmail.com
 

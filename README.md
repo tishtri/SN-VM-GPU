@@ -36,8 +36,10 @@ Command line format:
 
    >sn-vn-gpu < sn_raw_matrix_file > sn_final_marking
    
-   Optional parameters of command line: 
-    	argv1 -- debug level (defauld 0 -- no debug info printed).
+   Optional parameters of command line:
+   
+   argv1 -- debug level (defauld 0 -- no debug info printed);
+   argv2 -- maximal number of steps (default -- no limitation).
    	
    We recommend to run in multiuser mode to avoid GPU timeout halts.
    
@@ -48,7 +50,7 @@ How to compile and build:
 Examples of command lines to build and run program are specified as comments within source files. Because of absence of entire grid synchronization facilities within CUDA GPU architecture 35, two variants of source code are provided:
 
 	`sn-vm-gpu-1b.c` -- uses a single block only with a single kernel program;
-	`sn-vm-gpu-fk.c` -- uses variable number of blocks with a few kerkels programs.
+	`sn-vm-gpu-fk.c` -- uses variable number of blocks with a few kernel programs.
    
 
 Format of file:
@@ -58,12 +60,12 @@ Sleptsov Net Raw Matrix File Format `MSN` as the net dimension followed by matri
 
 `sn_raw_matrix_file`::
 
-m n
-B
-D
-R
-mu
-
+	m n
+	B
+	D
+	R
+	mu
+Where:
 	m -- number of places;
 	n -- number of transitions;
 	B -- matrix of incoming arcs of transitions;
@@ -101,6 +103,8 @@ References:
 6. Qing Zhang, Ding Liu, Yifan Hou, Sleptsov Net Processor, International Conference ”Problems of Infocommunications. Science and Technology” (PICST2022), 10-12 October, 2022, Kyiv, Ukraine.
 
 7. Hongfei Zhao, Ding Liu, Yifan Hou, Compiler and Linker of Sleptsov Net Program,International Conference ”Problems of Infocommunications. Science and Technology” (PICST2022), 10-12 October, 2022, Kyiv, Ukraine.
+
+8. Sleptsov Net Computing Resolves Modern Supercomputing Problems, The April 21, 2023, edition of ACM TechNews, https://technews.acm.org/archives.cfm?fo=2023-04-apr/apr-21-2023.html
 
 ----------------------------------------------------------------------- 
 @ 2023 Tatiana R. Shmeleva: tatianar.shmeleva@gmail.com

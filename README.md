@@ -55,7 +55,9 @@ I. Run VM:
    >sn-vn-gpu-mcc < sn_mcc_file > sn_final_marking
    
    Optional parameters of command line: 
+   
     	argv1 -- debug level (default 0 -- no debug info printed).
+     
     	argv2 -- limitation of number of SN steps  (no limitation by default).
    	
    We recommend to run in multiuser mode  of Linux/UNIX (without GUI) to avoid GPU timeout halts.
